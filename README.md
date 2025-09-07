@@ -8,7 +8,7 @@ The goal is to improve intelligibility of speech recordings corrupted by backgro
 Background noise reduces clarity in everyday communication, especially in mobile calls, video conferencing, and hearing aids. While deep learning solutions exist, they are computationally expensive and less transparent.  
 This project demonstrates an interpretable approach that extends classical DSP methods taught in the course, showing how they can be applied to real-world audio problems.
 
-
+---
 
 👤 **Author:** Joshua Chao-Hsu Chen
 📘 **Course:** ELEC5305 - Acoustics, Speech, and Signal Processing
