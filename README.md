@@ -10,6 +10,27 @@ This project demonstrates an interpretable approach that extends classical DSP m
 
 ---
 
+## Updates and Progress
+- Implemented an initial MATLAB prototype performing:
+  - Noise simulation using `awgn()`.
+  - STFT analysis of clean and noisy speech signals.
+  - Spectral subtraction with noise floor limiting.
+  - Inverse STFT for waveform reconstruction.
+- Early results show clear noise reduction in moderate SNR conditions (10–20 dB).
+- Spectrogram comparisons confirm reduced high-frequency noise components after processing.
+- Current focus: tuning subtraction factor and smoothing window to minimize “musical noise” artifacts.
+
+## Literature Review Summary
+Recent studies show hybrid or adaptive versions of spectral subtraction can outperform static methods.  
+Key findings:
+- Boll (1979) introduced baseline spectral subtraction for stationary noise.
+- Berouti et al. (1979) proposed oversubtraction and spectral flooring to reduce distortion.
+- Loizou (2013) and Kamath & Loizou (2002) discuss real-time implementations and perceptual weighting.
+- Deep learning models (e.g., RNNoise, DCCRN) achieve superior results but are computationally heavy—this project focuses on efficient classical DSP methods.
+
+
+---
+
 👤 **Author:** Joshua Chao-Hsu Chen
 📘 **Course:** ELEC5305 - Acoustics, Speech, and Signal Processing
 🗂️ **GitHub Repo:** https://github.com/JoshuaCHChen/elec5305-project-510656681
