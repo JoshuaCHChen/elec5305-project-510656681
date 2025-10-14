@@ -16,9 +16,8 @@ This project demonstrates an interpretable approach that extends classical DSP m
   - STFT analysis of clean and noisy speech signals.
   - Spectral subtraction with noise floor limiting.
   - Inverse STFT for waveform reconstruction.
-- Early results show clear noise reduction in moderate SNR conditions (10–20 dB).
 - Spectrogram comparisons confirm reduced high-frequency noise components after processing.
-- Current focus: tuning subtraction factor and smoothing window to minimize “musical noise” artifacts.
+- Current focus:
 
 ## Literature Review Summary
 Recent studies show hybrid or adaptive versions of spectral subtraction can outperform static methods.  
