@@ -1,4 +1,4 @@
-# Real-Time Speech Enhancement Using FFT-Based Noise Suppression
+# Analysis of Single-Channel Speech Enhancement Methods Using STFT: Spectral Subtraction, Wiener Filtering, and MMSE-STSA
 
 ## Overview
 This project implements a speech enhancement system in MATLAB using classic frequency-domain noise suppression algorithms in the short-time Fourier transform (STFT) domain.
